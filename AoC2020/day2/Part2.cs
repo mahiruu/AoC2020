@@ -5,7 +5,7 @@ public static class Part2
     public static int GetResult()
     {
         return (from line in System.IO.File.ReadLines(
-                    @"/home/rob/Programming/Csharp/AdventOfCode2020/AoC2020/AoC2020/day2/input1.txt")
+                    @"/home/ma/Programming/Csharp/AdventOfCode2020/AoC2020/AoC2020/day2/input1.txt")
                 select line.Split(" ")
                 into splitLine
                 let firstOccurenceIndex = int.Parse(splitLine[0].Split("-")[0]) - 1
