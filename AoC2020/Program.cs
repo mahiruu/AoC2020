@@ -5,4 +5,6 @@
 //Console.WriteLine(AoC2020.day1.Part2.GetResult());
 //Console.WriteLine(AoC2020.day2.Part1.GetResult());
 //Console.WriteLine(AoC2020.day2.Part2.GetResult());
+//Console.WriteLine(AoC2020.day3.Part1.GetResult());
 
+Console.WriteLine(AoC2020.day3.Part2.GetResult());
